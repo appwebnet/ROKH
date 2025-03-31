@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face{font-family:'dillen';
+    src:url('fonts/Dillen.ttf') format('truetype'),
+}
+body{
+    font-family: Dillen;
+    background-color: #131313;
+}
+::-webkit-scrollbar{
+    width: 0px;
+}
+
+td{
+    height: 50px;
+}
+
+.titel{
+    color: #d8e9ff;
+    font-size: 25px;
+    line-height: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.footer {
+    backdrop-filter: blur(10px);
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #141515bf;
+    box-shadow: #222223 0px 0px 10px;
+    transition: transform 0.3s ease-in-out;
+}
+.footer img{
+    width: 25px;
+    padding: 10px;
+    filter: drop-shadow(#000000 0px 2px 2px);
+}
+.footer.hide {
+    transform: translateY(100%);
+}
+
+
+.box-main{
+
+    color: #d8e9ff;
+
+
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+
+}
+table {
+    border-radius: 15px 15px 0px 0px;
+    overflow: hidden;
+    border: 2px solid #1e1f21;
+    background-color: #292a2c;
+    border-collapse: collapse;
+    text-align: right;
+    line-height: 20px;
+    font-size: 15px;
+}
+th, td {
+    border: 2px solid #1e1f21;
+    padding: 10px;
+}
+th {
+    background-color: #1e1f21;
+}
+caption {
+    caption-side: top;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
